@@ -6,12 +6,6 @@ import java.io.Serializable;
 
 public class Stroke extends Path implements Serializable {
 
-    public enum ActionType {
-        START,
-        MOVE,
-        UP
-    }
-
     public int color;
 
     public int width;
