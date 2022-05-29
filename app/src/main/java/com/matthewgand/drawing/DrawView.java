@@ -87,8 +87,8 @@ public class DrawView extends View implements Serializable {
 
     public void undo() {
         try {
-            strokes.remove(strokes.size() - 1);
-            paths.remove(paths.size() - 1);
+            strokes.clear();
+            paths.clear();
             invalidate();
         } catch (ArrayIndexOutOfBoundsException e) {
             // Except error if strokes or path is empty.
@@ -97,9 +97,6 @@ public class DrawView extends View implements Serializable {
 
     public void save(String filename) {
         try {
-            /*
-            Create a better file saving system.
-             */
             File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
             File file = new File(folder, filename + ".draw");
 
@@ -110,6 +107,9 @@ public class DrawView extends View implements Serializable {
 
             Toast.makeText(getContext(), "File saved as " + filename + "!", Toast.LENGTH_SHORT).show();
 
+            strokes.clear();
+            paths.clear();
+            invalidate();
         } catch (IOException e) {
             Toast.makeText(getContext(), "Unable to save file!", Toast.LENGTH_SHORT).show();
         }
