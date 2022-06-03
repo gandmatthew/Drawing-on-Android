@@ -48,12 +48,11 @@ public class DrawView extends View implements Serializable {
     private ArrayList<Stroke> paths = new ArrayList<>();
     private ArrayList<Stroke> strokes = new ArrayList<>();
 
-    // Not sure why we need this constructor
+    // Not sure why we need this constructor when we have the other constructor
     public DrawView(Context context) {
         this(context, null);
     }
 
-    // Not sure why we need this constructor
     public DrawView(Context context, AttributeSet attrs) {
         super(context, attrs);
         /*
