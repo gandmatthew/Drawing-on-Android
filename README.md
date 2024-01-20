@@ -1,6 +1,6 @@
 # About
 
-The Drawing on Android app, built with Android Studio Java, allows users to draw and collaborate in real-time through Firebase. It uses serialization to save files in a custom object-oriented format that can be deserialized in Java.
+The Tulisan app, built with Android Studio Java, allows users to draw and collaborate in real-time through Firebase. It uses serialization to save files in a custom object-oriented format that can be deserialized in Java.
 
 <img width="220" alt="image" src="https://github.com/gandmatthew/Drawing-on-Android/assets/89164395/e1606384-cc34-4c0c-a8af-9a67ad08126b">
 
