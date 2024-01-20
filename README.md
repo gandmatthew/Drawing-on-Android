@@ -8,8 +8,6 @@ The Drawing on Android app, built with Android Studio Java, allows users to draw
 
 <img width="213" alt="Screenshot 2024-01-18 182113" src="https://github.com/gandmatthew/Drawing-on-Android/assets/89164395/74b69cb1-ac9a-456b-84dd-460d51422988">
 
-# Saved in downloads folder
-
 <img width="217" alt="Screenshot 2024-01-18 182334" src="https://github.com/gandmatthew/Drawing-on-Android/assets/89164395/650411c1-a68e-485f-923c-a75a13c7b9e2">
 
 # Open and view custom .draw files
